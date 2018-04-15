@@ -68,7 +68,7 @@ public class MainActivity extends BaseActivity implements LocationSource, AMapLo
     private OnLocationChangedListener mListener = null;//声明mListener对象，定位监听器
     private TextView tvLocation;
     private Marker oldMarker;//点击的marker
-    private LatLng myLatLng;//我的位置
+    private LatLng myLatLng;//我的位置在这
 
     //显示路径
     private RouteSearch mRouteSearch;
